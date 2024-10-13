@@ -16,6 +16,6 @@ A small Search Engine implementation using Trie Data Structure in Java.
 
 ### Universal Search
 
-<img align="center" src="https://raw.githubusercontent.com/FAROOQkhan10/TrieSearch/refs/heads/main/images/Screenshot%202024-10-11%20at%209.23.37%E2%80%AFAM.png"/>
+<img align="center" src="https://raw.githubusercontent.com/FAROOQkhan10/TrieSearch/refs/heads/main/images/Screenshot%202024-10-13%20at%209.44.56%E2%80%AFAM.png"/>
 
 
