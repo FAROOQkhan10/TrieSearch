@@ -51,27 +51,17 @@ public class Trie {
              }
          }
 
-         dfs(crawler,prefix,store);
+         CollectWords(crawler,prefix,store);
 
          return store;
 
      }
-
-    private void dfs(TrieNode crawler, String prefix, ArrayList<String> store) {
-         if(crawler == null) return;
-         if(crawler.isEndOfWord) store.add(prefix);
-         for(Map.Entry<Character,TrieNode>entry : crawler.children.entrySet()){
-             dfs(entry.getValue(),prefix + entry.getKey(),store);
-         }
-    }
 
     public ArrayList<String> universalSearch(String subStr){
          ArrayList<String> store = new ArrayList<>();
          ArrayList<String> res = new ArrayList<>();
          TrieNode crawler = root;
          CollectWords(crawler,"",store);
-
-        System.out.println(store);
 
          for(var word : store){
              if(word.contains(subStr)){
