@@ -62,7 +62,7 @@ public class Main {
                         System.out.println("No matching results found.");
                     }
                     else{
-                        System.out.println("Words found with containing"+universal +" substring" + ans);
+                        System.out.println("Words found with containing "+ universal +" substring" + ans);
                     }
                     break;
 
